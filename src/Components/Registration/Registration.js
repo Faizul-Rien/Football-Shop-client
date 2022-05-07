@@ -4,7 +4,7 @@ import { useCreateUserWithEmailAndPassword,} from "react-firebase-hooks/auth";
 import auth from "../../firebase.init";
 import Google from '../Google/Google';
 
-const Register = () => {
+const Registration = () => {
   const [createUserWithEmailAndPassword, user] =
     useCreateUserWithEmailAndPassword(auth, {sendEmailVerification:true});
 
@@ -76,4 +76,4 @@ const Register = () => {
   );
 };
 
-export default Register;
+export default Registration;

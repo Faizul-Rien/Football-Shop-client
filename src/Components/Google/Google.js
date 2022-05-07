@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import auth from "../../firebase.init";
 import google from "../../Images/google.jpg";
 
-const SocialSite = () => {
+const Google = () => {
   const nevigate = useNavigate();
   const [signInWithGoogle, user] = useSignInWithGoogle(auth);
 
@@ -25,4 +25,4 @@ const SocialSite = () => {
   );
 };
 
-export default SocialSite;
+export default Google;

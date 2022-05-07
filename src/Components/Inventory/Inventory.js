@@ -7,7 +7,7 @@ const Inventory = () => {
         
     <div className="inventoryId">
       <h2 className="title">Thank you for choosing Service Number : {inventoryId}</h2>
-      
+      <p>{}</p>
         </div>
     );
 };

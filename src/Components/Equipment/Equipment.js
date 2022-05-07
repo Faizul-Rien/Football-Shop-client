@@ -1,9 +1,17 @@
 import React from 'react';
 import { Button, Card } from 'react-bootstrap';
 import "./Equipment.css";
+import { useNavigate } from "react-router-dom";
 
 const Equipment = ({equipment}) => {
+
+    const nevigate = useNavigate();
+    
     const {id, name, img, price, quantity, supply, description} = equipment;
+
+    const handleInventory = (id) => {
+        nevigate(`/inventory/${id}`);
+    }
     return (
         <div className='equipment-card'>
             <Card style={{ width: '18rem' }}>
@@ -14,7 +22,7 @@ const Equipment = ({equipment}) => {
     <Card.Text>Quantity : {quantity}</Card.Text>
     <Card.Text> Supplier : {supply}</Card.Text>
     <Card.Text>Description : {description}</Card.Text>
-    <Button variant="primary">Update</Button>
+    <Button onClick={()=> handleInventory(id)} variant="primary">Update</Button>
   </Card.Body>
 </Card>
         </div>
