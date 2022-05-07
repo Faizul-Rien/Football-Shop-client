@@ -6,7 +6,6 @@ function App() {
   return (
     <div className="App">
       <Home></Home>
-      <h2>Hello React</h2>
 
       <Routes>
 

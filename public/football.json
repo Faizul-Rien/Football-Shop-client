@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "img": "https://5.imimg.com/data5/LN/LY/MY-12879019/adidas-football-jersey-500x500.jpg",
+    "name": "Jersey",
+    "price": 120,
+    "quantity": 10,
+	"supply": "Adidas",
+    "description": "Cheer on your favorite sports team by wearing their official jersey, designed by adidas."
+  },
+  {
+    "id": 2,
+    "img": "https://www.ubuy.com.bd/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvODFqcGdpcEJ0cEwuX0FDX1NMMTUwMF8uanBn.jpghttps://www.ubuy.com.bd/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvODFqcGdpcEJ0cEwuX0FDX1NMMTUwMF8uanBn.jpg",
+    "name": "Ball",
+    "price": 50,
+    "quantity": 20,
+	"supply": "Adidas",
+    "description": "Explore all adidas Footballs for both training and professional use."
+  },
+  {
+    "id": 3,
+    "img": "https://www.munchaza.com/images/h/adidas%20goalkeeper%20gloves-242mse.jpg",
+    "name": "Goalkeeper Gloves",
+    "price": 30,
+    "quantity": 15,
+	"supply": "Adidas",
+    "description": "Adidas gloves are worn by the some of the elite goalkeepers in World football."
+  },
+  {
+    "id": 4,
+    "img": "https://assets.adidas.com/images/w_600,f_auto,q_auto/bf4e7e4ba9924c65a30aab1200efe237_9366/Predator_20_League_Shin_Guards_Black_FM2408_01_standard.jpg",
+    "name": "Shin Guards",
+    "price": 20,
+    "quantity": 50,
+	"supply": "Adidas",
+    "description": "Keep your legs covered and go for every ball in adidas soccer shin guards."
+  },
+  {
+    "id": 5,
+    "img": "https://assets.adidas.com/images/w_600,f_auto,q_auto/3987b62b6110400baeeeaa0f0082bedb_9366/Santiago_Duffel_Bag_Black_CL5436_01_standard.jpg",
+    "name": "Gear Bag",
+    "price": 150,
+    "quantity": 5,
+	"supply": "Adidas",
+    "description": "Keep all your equipment organized with adidas duffle bags."
+  },
+  {
+    "id": 6,
+    "img": "https://cdn.eazyauction.de/1f/1f1b6eb3084ec18ed51517314b294a3b710d0e17c1cf01773325c8d3ec8c5951a67224f981d2bec12df295cb2bf490f6/img/1a20327bcb95d04685a7e3c563e158ce78ff57bc.jpeg",
+    "name": "Training Kit",
+    "price": 25,
+    "quantity": 90,
+	"supply": "Adidas",
+    "description": "The collection includes adidas football training tops, track pants, shorts, tracksuits and lots more."
+  },
+  {
+    "id": 7,
+    "img": "https://cdn.mos.cms.futurecdn.net/kPWa69JMStPVrbNhuzHZsj.jpg",
+    "name": "Football Boots",
+    "price": 70,
+    "quantity": 10,
+	"supply": "Adidas",
+    "description": "Buy the newest men's adidas football boots at Football Universe. We stock the latest ranges."
+  },
+  {
+    "id": 8,
+    "img": "https://m.media-amazon.com/images/I/81izM5YYyJS._AC_SX522_.jpg",
+    "name": "Ankle Strap",
+    "price": 10,
+    "quantity": 20,
+	"supply": "Adidas",
+    "description": "These ankle straps make sure you're always ready for action."
+  },
+  {
+    "id": 9,
+    "img": "https://assets.adidas.com/images/w_600,f_auto,q_auto/c64112214c5041afa975a974003a1d46_9366/Creator_365_Crew_Socks_Black_CK8484_03_standard.jpg",
+    "name": "Football Socks",
+    "price": 25,
+    "quantity": 20,
+	"supply": "Adidas",
+    "description": "Socks are the first step to building a comfortable foundation for your training."
+  }
+]
