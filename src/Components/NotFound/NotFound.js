@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
+import error from '../../Images/404.webp';
 
 const NotFound = () => {
-    return (
-        <div>
-            <h2>Error 404</h2>
-        </div>
-    );
+  return (
+    <div>
+      <img height={'558px'} className="w-100" src={error} alt="" />
+    </div>
+  );
 };
 
 export default NotFound;

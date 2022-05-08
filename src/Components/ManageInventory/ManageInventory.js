@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useForm } from "react-hook-form";
-import Equipment from '../Equipment/Equipment';
+import Manage from './Manage';
 
 const ManageInventory = () => {
 
@@ -40,9 +40,10 @@ const ManageInventory = () => {
             <div className='equipment-container mt-5'>
                 {
                     equipment.map((equipment)=>(
-                        <Equipment
+                        <Manage
                         key={equipment._id}
-                        equipment={equipment}></Equipment>
+                        equipment={equipment}></Manage>
+                        
                     ))
                 }
             </div>
