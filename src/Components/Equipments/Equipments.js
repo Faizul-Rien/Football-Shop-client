@@ -15,7 +15,7 @@ const Equipments = () => {
            <h2 className='title'> Football Equipments</h2>
            <div className='equipment-container'>
             {
-                equipments.slice((0,3)).map((equipment)=> (
+                equipments.slice((1,3)).map((equipment)=> (
                  <Equipment 
                  key={equipment._id}
                  equipment={equipment}></Equipment>   
