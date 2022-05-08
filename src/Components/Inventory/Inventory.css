@@ -16,3 +16,15 @@
     background-color: green;
     color:white;
 }
+.link-button{
+    background-color: orange;
+    margin-left: 100px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}
+.container-form{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+}

@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 import Manage from './Manage';
 
 const ManageInventory = () => {
+    
 
         const [equipment, setEquipment] = useState([])
         useEffect(()=>{
@@ -42,7 +43,8 @@ const ManageInventory = () => {
                     equipment.map((equipment)=>(
                         <Manage
                         key={equipment._id}
-                        equipment={equipment}></Manage>
+                        equipment={equipment}
+                        ></Manage>
                         
                     ))
                 }
