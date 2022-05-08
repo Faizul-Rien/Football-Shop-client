@@ -1,0 +1,18 @@
+.inventory-container{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.delivered-btn{
+    border: none;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.delivered-btn:hover{
+    background-color: green;
+    color:white;
+}
