@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import Equipment from '../Equipment/Equipment';
 import './Equipments.css';
 
@@ -21,6 +22,7 @@ const Equipments = () => {
                 ))
             }
            </div>
+           <Link className='link-btn' to='/manage'>All Equipment</Link>
         </div>
     );
 };

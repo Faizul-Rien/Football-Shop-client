@@ -25,6 +25,7 @@ const Equipment = ({equipment}) => {
     <Button onClick={()=> handleInventory(id)} variant="primary">Update</Button>
   </Card.Body>
 </Card>
+
         </div>
     );
 };
