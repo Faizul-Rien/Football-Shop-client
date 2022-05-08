@@ -6,7 +6,7 @@ import './Equipments.css';
 const Equipments = () => {
     const [equipments, setEquipments] = useState([])
     useEffect( () =>{
-        fetch('football.json')
+        fetch('http://localhost:5000/equipment')
         .then(res=> res.json())
         .then(data => setEquipments(data))
     },[])
@@ -17,7 +17,7 @@ const Equipments = () => {
             {
                 equipments.slice((0,3)).map((equipment)=> (
                  <Equipment 
-                 key={equipment.id}
+                 key={equipment._id}
                  equipment={equipment}></Equipment>   
                 ))
             }

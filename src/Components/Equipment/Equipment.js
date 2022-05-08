@@ -7,7 +7,7 @@ const Equipment = ({equipment}) => {
 
     const nevigate = useNavigate();
     
-    const {id, name, img, price, quantity, supply, description} = equipment;
+    const {_id, name, img, price, quantity, supply, description} = equipment;
 
     const handleInventory = (id) => {
         nevigate(`/inventory/${id}`);
@@ -22,7 +22,7 @@ const Equipment = ({equipment}) => {
     <Card.Text>Quantity : {quantity}</Card.Text>
     <Card.Text> Supplier : {supply}</Card.Text>
     <Card.Text>Description : {description}</Card.Text>
-    <Button onClick={()=> handleInventory(id)} variant="primary">Update</Button>
+    <Button onClick={()=> handleInventory(_id)} variant="primary">Update</Button>
   </Card.Body>
 </Card>
 

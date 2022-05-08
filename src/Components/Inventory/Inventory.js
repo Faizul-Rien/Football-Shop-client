@@ -5,15 +5,16 @@ const Inventory = () => {
     const { inventoryId } = useParams();
     const [equip, setEquip] = useState({})
     useEffect(()=>{
-      fetch('football.json')
+      const url = `http://localhost:5000/equipment/${inventoryId}`
+      fetch(url)
       .then(res=> res.json())
       .then(data => setEquip(data))
     },[])
     return (
         
     <div className="inventoryId">
-      <h2 className="title">Thank you for choosing Service Number : {inventoryId}</h2>
-      <p>{equip.name}</p>
+      <h2>Name : {equip.name}</h2>
+      
         </div>
     );
 };
