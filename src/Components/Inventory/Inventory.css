@@ -4,6 +4,11 @@
     border-radius: 10px;
     margin-top: 20px;
 }
+.image{
+   height:250px;
+    width: 18rem;
+}
+
 
 .delivered-btn{
     border: none;
@@ -27,4 +32,17 @@
 .container-form{
     display: grid;
     grid-template-columns: repeat(2 , 1fr);
+}
+
+@media only screen and (max-width: 540px){
+    .container-form{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .image{
+        width: 11rem;
+    }
+    .form-box{
+        margin-left: 130px;
+    }
 }

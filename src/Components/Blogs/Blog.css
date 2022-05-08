@@ -23,3 +23,10 @@
     margin-top: 20px;
     color:green;
 }
+
+@media only screen and (max-width: 540px){
+    .blog-container{
+        display: grid;
+        grid-template-columns:repeat(1, 1fr)
+    }
+}

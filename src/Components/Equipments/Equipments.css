@@ -20,3 +20,14 @@
     padding: 10px;
     margin-bottom: 20px;
 }
+
+@media screen and (max-width: 540px){
+    .equipment-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 30px;
+    }
+    .link-btn{
+        margin-left: 50px;
+    }
+}

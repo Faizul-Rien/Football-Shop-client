@@ -24,7 +24,7 @@ const Inventory = () => {
         </div>
        <div className='container-form'>
        <div className='inventory-container w-50 mx-auto'>
-      <img src={equip.img} style={{ height:'250px', width:"18rem"}} alt="" />
+      <img className='image' src={equip.img} alt="" />
 
        <h2>{equip.name}</h2>
         <p>${equip.price}</p>
@@ -34,7 +34,7 @@ const Inventory = () => {
         <button className='delivered-btn'>Delivered</button>
      </div>
      <div>
-     <form className='d-flex flex-column w-25 mt-5' onSubmit={handleSubmit(onSubmit)}>
+     <form className='d-flex flex-column w-25 mt-5 form-box' onSubmit={handleSubmit(onSubmit)}>
       <input className='mb-2' placeholder='Quantity' type="number" {...register("quantity")} />
       <input type="submit" value= "Add Quantity" />
     </form>

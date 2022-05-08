@@ -7,6 +7,7 @@
 .news-container img{
     border-radius: 10px;
     margin: 10px;
+    width: 38rem;
 }
 
 .news-container h2{
@@ -15,4 +16,20 @@
 
 .news-container p{
     padding: 10px;
+}
+
+@media only screen and (max-width: 540px){
+    .news-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .news-container h2{
+        width: 350px;
+    }
+    .news-container p{
+        width: 350px;
+    }
+    .news-container img{
+        width: 21rem;
+    }
 }
