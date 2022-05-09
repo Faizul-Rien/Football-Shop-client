@@ -22,12 +22,12 @@ const Manage = ({equipment}) => {
         <div className='equipment-card'>
         <Card style={{ width: '18rem' }}>
 <Card.Img variant="top" style={{ height:'250px',}} src={img}/>
-<Card.Body>
-<Card.Title>{name}</Card.Title>
-<Card.Text>${price}</Card.Text>
-<Card.Text>Quantity : {quantity}</Card.Text>
-<Card.Text> Supplier : {supply}</Card.Text>
-<Card.Text>Description : {description}</Card.Text>
+<Card.Body className='card-container'>
+    <h2 className='pro-h2'>{name}</h2>
+   <p className='price'>${price}</p>
+    <p> <span className='common'>Quantity :</span> {quantity}</p>
+    <p><span className='common'>Supplier :</span> {supply}</p>
+     <p><span className='common'>Description :</span> <span className='descrip'>{description}</span> </p>
 <Button variant="danger" onClick={()=> handleDelete(equipment._id)}>Delete</Button>
 </Card.Body>
 </Card>

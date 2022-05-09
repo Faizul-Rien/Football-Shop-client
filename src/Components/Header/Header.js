@@ -31,9 +31,8 @@ const Header = () => {
             <Nav.Link as={Link} to="/home">
               Home
             </Nav.Link>
-            {/* <Nav.Link as={Link} to="/inventory">
-              Inventory
-            </Nav.Link> */}
+           
+
             <Nav.Link as={Link} to="/manage">
               Manage Inventoy
             </Nav.Link>
@@ -53,6 +52,9 @@ const Header = () => {
 
             <Nav.Link as={Link} to="/blogs">
               Blogs
+            </Nav.Link>
+            <Nav.Link as={Link} to="/special">
+              Football Special
             </Nav.Link>
           </Nav>
           <Nav>

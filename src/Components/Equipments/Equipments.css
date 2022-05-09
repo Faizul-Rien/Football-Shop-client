@@ -3,16 +3,18 @@
     grid-template-columns:repeat(3, 1fr);
     grid-gap:10px;
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 80px;
+    margin-bottom: 20px;
 }
 
 .title{
     text-align: center;
     color:orangered;
+    font-weight: 700;
 }
 
 .link-btn{
-    background-color: orange;
+    background-color: tomato;
     margin-left: 550px;
     text-decoration: none;
     border-radius: 10px;

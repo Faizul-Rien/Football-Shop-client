@@ -1,0 +1,21 @@
+.common{
+    font-weight: 700;
+}
+
+.price{
+    font-size: 28px;
+    font-weight: 900;
+    color:green;
+}
+.descrip{
+    font-size: 11px;
+}
+
+.card-container{
+    height: 330px;
+    border-radius: 20px;
+
+}
+.pro-h2{
+    font-size:30px;
+}

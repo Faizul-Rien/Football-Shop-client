@@ -12,6 +12,7 @@ import NotFound from './Components/NotFound/NotFound';
 import Header from './Components/Header/Header';
 import Registration from './Components/Registration/Registration';
 import RequireAuth from './Components/RequireAuth/RequireAuth';
+import FootballSpecial from './Components/FootballSpeicial/FootballSpecial';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
       <Route path="/myItem" element={<MyItem></MyItem>}></Route>
       <Route path="/add" element={<AddItem></AddItem>}></Route>
       <Route path="/blogs" element={<Blog></Blog>}></Route>
+      <Route path="/special" element={<FootballSpecial></FootballSpecial>}></Route>
       <Route path="/registration" element={<Registration></Registration>}></Route>
       <Route path="/login" element={<Login></Login>}></Route>
       <Route path='*' element={<NotFound></NotFound>}></Route>
