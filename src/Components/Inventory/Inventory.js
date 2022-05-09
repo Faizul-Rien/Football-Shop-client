@@ -12,7 +12,7 @@ const Inventory = () => {
     const { inventoryId } = useParams();
     const [equip, setEquip] = useState({})
     useEffect(()=>{
-      const url = `http://localhost:5000/equipment/${inventoryId}`
+      const url = `https://still-brushlands-73220.herokuapp.com/equipment/${inventoryId}`
       fetch(url)
       .then(res=> res.json())
       .then(data => setEquip(data))

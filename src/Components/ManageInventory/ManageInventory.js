@@ -7,7 +7,7 @@ const ManageInventory = () => {
 
         const [equipment, setEquipment] = useState([])
         useEffect(()=>{
-            fetch(`http://localhost:5000/equipment`)
+            fetch(`https://still-brushlands-73220.herokuapp.com/equipment`)
             .then(res => res.json())
             .then(data => setEquipment(data))
         },[])
@@ -15,7 +15,7 @@ const ManageInventory = () => {
     const onSubmit = data => {
         console.log(data);
 
-    const url = `http://localhost:5000/equipment`;
+    const url = `https://still-brushlands-73220.herokuapp.com/equipment`;
     fetch(url,{
         method: 'POST',
         headers: {
